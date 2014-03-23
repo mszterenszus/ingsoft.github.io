@@ -1,0 +1,40 @@
+/**
+* Hero
+*/
+.hero-unit {
+    background-image: url("../../img/hero-mobile.jpg");
+    background-position: center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+.hero-unit h1 {
+    padding: 40px 0 0 0;
+}
+.hero-unit h2 {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+.hero-unit p {
+    color: #fff;
+    padding: 10px 0;
+}
+.hero-unit p a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/**
+* System
+*/
+.system .block {
+    width: 100%;
+    margin: 0 auto 20px;
+}
+.system .block .form-signup .options .btn-link {
+    display: none
+}

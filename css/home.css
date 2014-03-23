@@ -1,0 +1,158 @@
+/**
+* Nav
+*/
+#nav {
+    position: relative;
+    z-index: 2;
+    border-bottom: none;
+}
+#nav .navPublic .navTop > li a.btn-link {
+    color: #eee;
+    text-decoration: underline;
+}
+#nav .navPublic .navTop > li a.active {
+    color: #fff;
+}
+
+/**
+* Hero
+*/
+.hero-unit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    max-height: 100%;
+    background-image: url("../img/hero-home.jpg");
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+.hero-unit h1, .hero-unit p {
+    color: #8BC11B;
+    /*text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    */
+    text-align: center;
+}
+.hero-unit h1 {
+    font-size: 50px;
+    line-height: 60px;
+}
+.hero-unit p {
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+    color: #002B55;
+}
+.hero-unit .container {
+    position: relative;
+    height: 100%;
+}
+.hero-unit .signupForm {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 200px;
+    margin: -100px 0 0 0;
+}
+.hero-unit .signupForm #password_icon.btn-danger {background:#eee}
+.hero-unit .signupForm #password_icon.checkpswd{
+    position: absolute;
+    bottom: 5px;
+    left: 26px;
+    right: 26px;
+    height:2px;
+}
+.hero-unit .getmore {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    border-color: #ddd;
+    color: #002B55;
+}
+.hero-unit .getmore .caret {
+    border-top-color: #002B55;
+}
+.hero-unit .getmore:hover .caret {
+    border-top-color: #333;
+}
+
+/**
+* Footer
+*/
+#footer {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+font-family: 'Scada', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+color: #8BC11B;
+font-weight: bold;
+}
+
+
+#footer ul li a {
+color: #002B55;
+}
+
+.clients {
+    position:relative; 
+}
+
+.clients h4 {
+    color:green;
+}
+
+.clients img{
+    padding:10px;
+}
+
+.clients .front{
+    position: absolute;
+    top:0;
+    left:-50%;
+    width: 200%;
+    height:100%;
+    background-color: rgba(0, 20, 30,0.7);
+}
+
+.row.sitemap {
+    padding-top:20px;
+}
+
+div#banner{
+    position: relative;
+    top:0;
+    left:-50%;
+    width: 200%;
+    height: 70px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+div#banner > #banner_backdrop{
+    position: absolute;
+    top:0;
+    left:-50%;
+    width: 200%;
+    height: 200px;
+    -webkit-animation: backdrop_roll linear 24s infinite;
+    -moz-animation: backdrop_roll linear 24s infinite;
+    -ms-animation: backdrop_roll linear 24s infinite;
+    -o-animation: backdrop_roll linear 24s infinite;
+    animation: backdrop_roll linear 24s infinite;
+}
+@-webkit-keyframes backdrop_roll { from { left: -2400px; } to { left: 0px; } }
+@-moz-keyframes backdrop_roll { from { left: -2400px; } to { left: 0px; } }
+@-ms-keyframes backdrop_roll { from { left: -2400px; } to { left: 0px; } }
+@-o-keyframes backdrop_roll { from { left: -2400px; } to { left: 0px; } }
+@keyframes backdrop_roll { from { left: -2400px; } to { left: 0px; }  }
