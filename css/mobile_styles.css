@@ -20,10 +20,11 @@ line-height: 30px;
     text-align: center;
     padding: 30px 0 0 0;
     font-size: 15px;
-line-height: 20px;
+line-height: 15px;
 }
 .hero-unit p {
     color: #fff;
+    margin-bottom: 10px;
 }
 .hero-unit p a {
     color: #fff;
@@ -37,7 +38,7 @@ line-height: 20px;
 
 .hero-unit .signupForm {
     position: inherit;
-    margin: 100px 0 0 0; 
+    margin: 80px 0 0 0; 
     top:0;
 }
 
