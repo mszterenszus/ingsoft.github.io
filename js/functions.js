@@ -20,6 +20,7 @@ if ((nom.length>0) && (email.length>0))
 			"$created": new Date(),
 			"$email": email
 		});
+		ga('send', 'event', 'form', 'submit');
 		 $('#bravo').show(); 
 		 $('#mail').hide(); 
 		 $('#nom').hide(); 
