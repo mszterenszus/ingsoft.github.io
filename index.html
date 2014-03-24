@@ -24,8 +24,8 @@
 <!-- v3 --><link rel="stylesheet" href="./css/bootstrap.min.css">
 <link rel="stylesheet" href="./css/main.css">
 <link rel="stylesheet" href="./css/home.css">
-<!-- <link rel="stylesheet" href="./css/mobile_styles.css">
- -->
+<link rel="stylesheet" href="./css/mobile_styles.css" media="screen and (max-width: 480px)">
+<link rel="stylesheet" href="./css/mobile_styles.css" media="screen and (max-device-width: 480px)">
  <link href='http://fonts.googleapis.com/css?family=Scada:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
 for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
@@ -38,8 +38,8 @@ mixpanel.init("bf7778ff09fe0b3c459c77eaaa88a344");</script><!-- end Mixpanel -->
 				<nav class="navPublic">
 					<div class="navTop pull-right">
 						<div class="btn-group">
-							<a href="tel:0171331500" class="btn btn-outline-inverse login" style="color:#002B55;">01 71 33 15 00</a>
-							<a href="./files/ingsoft-tele-assistance.exe" class="btn btn-outline-inverse login" style="color:#002B55;"><span class="glyphicon glyphicon-download"></span></a>
+							<a href="tel:0171331500" class="btn btn-outline-inverse login tel-number">01 71 33 15 00</a>
+							<a href="./files/ingsoft-tele-assistance.exe" class="btn btn-outline-inverse login no-mobile" style="color:#002B55;"><span class="glyphicon glyphicon-download"></span></a>
 						</div>
 					</div>
 				</nav>
@@ -53,7 +53,7 @@ mixpanel.init("bf7778ff09fe0b3c459c77eaaa88a344");</script><!-- end Mixpanel -->
 					<input type="hidden" name="source" value="Homepage Main">
 					<fieldset>
 						<div class="row">
-							<div class="col-md-8 col-md-offset-2">
+							<div class="col-sm-12 col-md-8 col-md-offset-2">
 								<div class="row">
 									<div id="alerte" class="alert alert-warning alert-dismissable" style="display:none">
   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
@@ -66,10 +66,10 @@ mixpanel.init("bf7778ff09fe0b3c459c77eaaa88a344");</script><!-- end Mixpanel -->
 <div class="col-md-4 ">
 										<input type="text" placeholder="Nom" class="form-control input-lg" name="nom" id="nom" value="" autofocus="">
 									</div>
-									<div class="col-md-4 ">
+									<div class="col-sm-12 col-md-4">
 										<input type="text" placeholder="Email ou téléphone" class="form-control input-lg" name="mail" id="mail" value="">
 									</div>
-									<div class="col-md-4">
+									<div class="col-sm-12 col-md-4">
 										<button id="validation" class="btn btn-lg btn-block btn-success">Obtenez des informations</button>
 									</div>
 								</div>
@@ -79,13 +79,13 @@ mixpanel.init("bf7778ff09fe0b3c459c77eaaa88a344");</script><!-- end Mixpanel -->
 				</div>
 			</div>
 		</div>
-		<a class="btn btn-outline-inverse getmore" href="#footer">En savoir plus <span class="caret"></span></a>
+		<a class="btn btn-outline-inverse getmore no-mobile" href="#footer">En savoir plus <span class="caret"></span></a>
 	</section>	<footer id="footer">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 <div class="row clients">
-<h4>Ils nous font confiance</h4>
+<h4 style="text-align: center;">Ils nous font confiance</h4>
  <div id="banner">
     <div id="banner_backdrop">
 <img src="./img/clients/image001.jpg">
