@@ -9,6 +9,7 @@
     -webkit-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
+    min-height: 500px;
 }
 .hero-unit h1 {
     font-size: 25px;
