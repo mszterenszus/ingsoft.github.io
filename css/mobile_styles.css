@@ -12,20 +12,21 @@
     min-height: 500px;
 }
 .hero-unit h1 {
-    font-size: 25px;
-line-height: 30px;
+    font-size: 22px;
+line-height: 25px;
 }
 .hero-unit h2 {
     color: #fff;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     text-align: center;
     padding: 30px 0 0 0;
-    font-size: 15px;
-line-height: 15px;
+    font-size: 10px;
+line-height: 10px;
 }
 .hero-unit p {
     color: #fff;
     margin-bottom: 10px;
+    font-size: 15px;
 }
 .hero-unit p a {
     color: #fff;
@@ -39,7 +40,7 @@ line-height: 15px;
 
 .hero-unit .signupForm {
     position: inherit;
-    margin: 80px 0 0 0; 
+    margin: 75px 0 0 0; 
     top:0;
 }
 
