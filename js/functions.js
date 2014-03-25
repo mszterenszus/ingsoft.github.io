@@ -17,7 +17,6 @@ if ((nom.length>0) && (email.length>0))
 		mixpanel.identify(mixpanel.get_distinct_id());
 		mixpanel.people.set({
 			"$nom": nom,
-			"$created": new Date(),
 			"$email": 'dev.ingsoft+'+(new Date).getTime()+'@gmail.com',
 			"$contact_information": email
 		});
