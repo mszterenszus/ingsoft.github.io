@@ -27,6 +27,9 @@
 .emploi .hero {
     background-image: url("/img/emploi.jpg");
 }
+.temoignages .hero {
+    background-image: url("/img/emploi.jpg");
+}
 .audit .hero {
     background-image: url("/img/audit.jpg");
 }
