@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ingsoft - logiciels Sage
-short_title: Les logiciels Sages
+short_title: Les logiciels Sage
 long_title: Un logiciel Sage pour chacun de vos besoins
 class: logiciel
 permalink: /logiciel/
