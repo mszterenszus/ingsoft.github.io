@@ -30,6 +30,9 @@
 .audit .hero {
     background-image: url("/img/audit.jpg");
 }
+.formation .hero {
+    background-image: url("/img/audit.jpg");
+}
 .developpement .hero {
     background-image: url("/img/developpement.jpg");
 }
