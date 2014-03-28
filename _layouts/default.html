@@ -1,0 +1,104 @@
+{% include top.html %}
+<body class="{{ page.class }}"><!--[if lt IE 7]><p class=chromeframe>Votre navigateur est <em>ancient!</em> <a href="http://browsehappy.com/">Veuillez installer un navgateur récent</a> ou <a href="http://www.google.com/chromeframe/?redirect=true">installer Google Chrome Frame</a> afin d'afficher correctement ce site.</p><![endif]-->
+<header id="nav">
+	<div class="container">
+		<h1 class="pull-left"><a href="/index.html"><img src="/img/logo.png" alt="Ingsoft"></a></h1>
+		<nav class="navPublic">
+			<div class="navTop pull-right">
+				<div class="btn-group">
+					<a href="tel:0171331500" class="btn btn-outline-inverse login tel-number">01 71 33 15 00</a>
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>
+<div class="hero">
+	<div class="container">
+		<h1>{{ page.short_title }}</h1>
+	</div>
+</div>
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+	<div class="container">
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Prestations <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li class="audit"><a href="/audit/">Audit et conseil</a></li>
+							<li class="logiciel"><a href="/logiciel/">Logiciels Sage</a></li>
+							<li class="maintenance"><a href="/maintenance/">Maintenance applicative</a></li>
+							<li class="infogerance"><a href="/infogerance/">Infogérance</a></li>
+							<li class="developpement"><a href="/developpement/">Développements spécifiques</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Entreprise <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li class="presentation"><a href="/presentation/">La société</a></li>
+							<li class="histoire"><a href="/histoire/">Histoire</a></li>
+							<li class="valeurs"><a href="/valeurs/">Nos valeurs</a></li>
+							<li class="emploi"><a href="/emploi/">Offres d'emploi</a></li>
+							<li class="partenaires"><a href="/partenaires/">Partenaires</a></li>
+							<li><a href="http://ingsoft.spreadshirt.fr/" target="_blank">Boutique</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Actualités/Presse <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="" target="_blank" class="blog">Blog</a></li>
+							<li class="communiques"><a href="">Communiqués de presse</a></li>
+							<li class="presse"><a href="">Revue de presse</a></li>
+							<li class="media-kit"><a target="_blank" href=""><span class="glyphicon glyphicon-download"></span> Dossier de presse</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Communauté <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a target="_blank" href="https://www.linkedin.com/company/ingsoft"><img src="/img/glyphicons_social_linked_in.png"> LinkedIn</a></li>
+							<li>&nbsp;</li>
+							<li><a href="https://plus.google.com/105346456666635907458" rel="publisher" target="_blank"><img src="/img/glyphicons_social_google_plus.png"> Google +</a></li>
+							<li>&nbsp;</li>
+							<li><a target="_blank" href="https://www.youtube.com/channel/UCZJtTmbn59pItxReQGLZTAQ"><img src="/img/glyphicons_social_youtube.png"> YouTube</a></li>
+						</ul>
+					</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="system hide">
+					<input type="text" placeholder="Votre nom" class="form-control input-md" name="nom" id="nom" value="" autofocus="">
+				</li>
+				<li class="system hide">
+					<input type="text" placeholder="Votre email ou tél." class="form-control input-md" name="mail" id="mail" value="">
+				</li>
+				<li class="system hide">
+				<button id="validation" class="btn btn-md btn-block btn-success">Obtenez des informations</button>
+				</li>
+				</ul>
+		</div>
+	</div>
+	<div id="alerte" class="alert alert-warning alert-dismissable" style="display:none">
+									<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+									Merci de remplir les champs demandés.
+								</div>
+								<div id="bravo" class="alert alert-success alert-dismissable" style="display:none">
+									<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+									Merci, nous vous contacterons dès que possible.
+								</div>
+</nav>
+<article class="page">
+	<div class="container">
+		<div class="row">
+			<section class="col col-sm-6 col-sm-offset-3">
+				<div class="page-header">
+					<h2>{{ page.long_title }}</h2>
+				</div>
+
+
+  {{ content }}
+
+</section>
+		</div>
+	</div>
+</article>
+  {% include footer.html %}
+</body>
+</html>

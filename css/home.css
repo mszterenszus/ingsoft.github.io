@@ -59,14 +59,7 @@
     height: 200px;
     margin: -100px 0 0 0;
 }
-.hero-unit .signupForm #password_icon.btn-danger {background:#eee}
-.hero-unit .signupForm #password_icon.checkpswd{
-    position: absolute;
-    bottom: 5px;
-    left: 26px;
-    right: 26px;
-    height:2px;
-}
+
 .hero-unit .getmore {
     position: absolute;
     bottom: 20px;
@@ -91,72 +84,3 @@
     right: 0;
 }
 
-body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-font-family: 'Scada', sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-color: #8BC11B;
-font-weight: bold;
-}
-
-
-#footer ul li a {
-color: #002B55;
-}
-
-.clients {
-    position:relative; 
-}
-
-.clients h4 {
-    color:green;
-}
-
-.clients img{
-    padding:10px;
-}
-
-.clients .front{
-    position: absolute;
-    top:0;
-    left:-50%;
-    width: 200%;
-    height:100%;
-    background-color: rgba(0, 20, 30,0.7);
-}
-
-.row.sitemap {
-    padding-top:20px;
-}
-
-div#banner{
-    position: relative;
-    top:0;
-    left:-50%;
-    width: 200%;
-    height: 70px;
-    margin: 0px auto;
-    overflow: hidden;
-}
-div#banner > #banner_backdrop{
-    position: absolute;
-    top:0;
-    left:-50%;
-    width: 200%;
-    height: 200px;
-    -webkit-animation: backdrop_roll linear 24s infinite;
-    -moz-animation: backdrop_roll linear 24s infinite;
-    -ms-animation: backdrop_roll linear 24s infinite;
-    -o-animation: backdrop_roll linear 24s infinite;
-    animation: backdrop_roll linear 24s infinite;
-}
-@-webkit-keyframes backdrop_roll { from { left: -2400px; } to { left: 0px; } }
-@-moz-keyframes backdrop_roll { from { left: -2400px; } to { left: 0px; } }
-@-ms-keyframes backdrop_roll { from { left: -2400px; } to { left: 0px; } }
-@-o-keyframes backdrop_roll { from { left: -2400px; } to { left: 0px; } }
-@keyframes backdrop_roll { from { left: -2400px; } to { left: 0px; }  }
-
-.btn.btn-outline-inverse.login.tel-number {
- color:#002B55;
-}

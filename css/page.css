@@ -1,0 +1,118 @@
+/** 
+* Nav 
+*/
+#nav {
+    position: relative;
+    z-index: 2;
+}
+#nav .navPublic .navTop a.btn-link {
+    color: #e67862;
+}
+
+/** 
+* Hero 
+*/
+.hero {
+    position: relative;
+    height: 290px;
+    overflow: hidden;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-position: 0 bottom;
+}
+
+.emploi .hero {
+    background-image: url("/img/emploi.jpg");
+}
+.audit .hero {
+    background-image: url("/img/audit.jpg");
+}
+.developpement .hero {
+    background-image: url("/img/developpement.jpg");
+}
+.histoire .hero {
+    background-image: url("/img/societe.jpg");
+}
+.infogerance .hero {
+    background-image: url("/img/infogerance.jpg");
+}
+.logiciel .hero {
+    background-image: url("/img/audit.jpg");
+}
+.maintenance .hero {
+    background-image: url("/img/maintenance.jpg");
+}
+.partenaires .hero {
+    background-image: url("/img/partenaires.jpg");
+}
+.presentation .hero {
+    background-image: url("/img/societe.jpg");
+}
+.valeurs .hero {
+    background-image: url("/img/audit.jpg");
+}
+.mentions-legales .hero {
+    background-image: url("/img/emploi.jpg");
+}
+
+
+.hero h1 {
+    color: #8BC11B;
+    padding: 120px 0 0 0;
+    text-align: center;
+    margin: 0;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+}
+
+/**
+* Navbar
+*/
+.navbar-default .navbar-nav>li>a.signup {
+    padding: 5px;
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a.signup:hover {
+    color: #5cb85c;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+    background-color: #8BC11B;
+}
+
+/** 
+* Page 
+*/
+.page {
+    padding: 50px 0 80px 0;
+}
+.page p, .page ul li {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.page ul li {
+    margin-bottom: 0.6em;
+}
+.page p {
+    margin-bottom: 1.5em;
+}
+.page h2 {
+    padding-bottom: 10px;
+}
+.page .page-header {
+    margin-bottom: 30px;
+}
+.page h3 {
+    padding: 20px 0;
+}
+.page .thumbnail h3 {
+    padding: 0;
+}
+.page .thumbnail p {
+    font-size: 14px;
+}

@@ -1,34 +1,29 @@
-	
-
 $('document').ready( function(){
 
 	// Init active menu current page
 	$('.'+current_page).addClass('active');
 
-	
-	
 	// Envoi des infos
 	$('#validation').click(function(){
-var nom,email;
-nom = $('#nom').val();
-email = $('#mail').val();
-if ((nom.length>0) && (email.length>0))
-{
-		mixpanel.identify(mixpanel.get_distinct_id());
-		mixpanel.people.set({
-			"$nom": nom,
-			"$created": new Date(),
-			"$email": email
-		});
-		 $('#bravo').show(); 
-		 $('#mail').hide(); 
-		 $('#nom').hide(); 
-		 $('#validation').hide(); 
-} else $('#alerte').show();
+		var nom,email;
+		nom = $('#nom').val();
+		email = $('#mail').val();
+		if ((nom.length>0) && (email.length>0))
+		{
+			mixpanel.identify(mixpanel.get_distinct_id());
+			mixpanel.people.set({
+				"$nom": nom,
+				"$email": 'dev.ingsoft+'+(new Date).getTime()+'@gmail.com',
+				"$contact_information": email
+			});
+			ga('send', 'event', 'form', 'submit','ok',1);
+			$('#bravo').show(); 
+			$('#mail').hide(); 
+			$('#nom').hide(); 
+			$('#validation').hide(); 
+		} else $('#alerte').show();
 	});
-	
 
-	
 	// onScroll fix navbar article
 	var navbar = $(".navbar");
 	$(window).scroll(function() {    
@@ -57,7 +52,7 @@ if ((nom.length>0) && (email.length>0))
 			}
 		}
 	});
-	
+
 	// Tracking des liens via Mixpanel
 	mixpanel.track_links("#footer .blog", "Website: blog", {Source: "footer"});
 //	mixpanel.track_links(".g-plusone", "Website: share", {Source: "google_plus"});
