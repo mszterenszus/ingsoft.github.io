@@ -30,6 +30,7 @@ Vous prenez la responsabilité des projets d'implémentation Sage Comptabilité 
 * Formation
 * Assistance
 
+
 #### Profil
 
 Vous êtes un(e) consultant(e) Sage expérimenté(e) disposant de 2 ans d'expérience minimum sur les produits Sage 100, acquise chez un prestataire agréé (CCS, PCS) dans des missions similaires.
@@ -37,9 +38,6 @@ Vous êtes un(e) consultant(e) Sage expérimenté(e) disposant de 2 ans d'expér
 Vous avez une parfaite maîtrise des logiciels Sage Comptabilité et Sage Paie ou Sage Gestion Commerciale, Ligne 100 et des produits associés.
 Vous faites preuve d'une grande autonomie dans votre travail et vous placez vos clients au centre de vos préoccupations ?
 Nous vous proposons une aventure passionnante au sein d'une entreprise en développement et des opportunités d'évolution importante.
-
-
-
 
 
 ### Consultants Sage 1000
