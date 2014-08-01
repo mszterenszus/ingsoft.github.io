@@ -7,7 +7,7 @@ class: emploi
 permalink: /emploi/
 ---
 
-Vous êtes intéressés? [Contactez nous !] (mailto:contact@ingsoft.fr)
+Vous êtes intéressés? [Contactez nous !](mailto:contact@ingsoft.fr)
 
 
 ### Consultant(e) Sage expérimenté(e)
