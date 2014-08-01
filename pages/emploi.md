@@ -15,12 +15,14 @@ Vous êtes intéressés? [Contactez nous !](mailto:contact@ingsoft.fr)
 #### Poste
 
 Rattaché(e) au responsable technique, vous intervenez sur des projets de mise en oeuvre des logiciels Sage 100 & Paie Vous accompagnez notre développement commercial dans des missions avant-vente:
+
 * analyse des besoins
 * préconisations techniques et fonctionnelles
 * présentation des solutions Sage
 * réponses aux appels d'offre
 
 Vous prenez la responsabilité des projets d'implémentation Sage Comptabilité et Paie et assurez les missions suivantes:
+
 * Audit
 * Installation
 * Paramétrage
